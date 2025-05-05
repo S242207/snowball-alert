@@ -3,8 +3,8 @@ import time
 import random
 
 # Telegram bot config
-TOKEN = '你的TOKEN'
-CHAT_ID = '你的CHAT_ID'
+TOKEN = os.environ['TOKEN']
+CHAT_ID = os.environ['CHAT_ID']
 API_URL = f'https://api.telegram.org/bot{TOKEN}/sendMessage'
 
 # 防止重複發送
