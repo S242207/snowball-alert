@@ -1,7 +1,7 @@
 import requests
 import time
 import random
-
+import os
 # Telegram bot config
 TOKEN = os.environ['TOKEN']
 CHAT_ID = os.environ['CHAT_ID']
